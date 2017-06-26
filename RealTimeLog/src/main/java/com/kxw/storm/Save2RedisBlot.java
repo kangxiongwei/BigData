@@ -6,10 +6,10 @@ import backtype.storm.topology.OutputFieldsDeclarer;
 import backtype.storm.topology.base.BaseBasicBolt;
 import backtype.storm.tuple.Tuple;
 import com.google.gson.Gson;
+import com.kxw.storm.other.PaymentInfo;
 import redis.clients.jedis.Jedis;
 import redis.clients.jedis.JedisPool;
 import redis.clients.jedis.JedisPoolConfig;
-import storm.tmall.other.PaymentInfo;
 
 import java.util.Map;
 
