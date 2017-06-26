@@ -1,0 +1,13 @@
+*.class
+*.project
+*.eclipse
+.metadata/*
+.recommenders/*
+RemoteSystemsTempFiles/*
+*/bin/*
+.classpath
+classes/
+target/
+.settings/
+.idea/
+*.iml
